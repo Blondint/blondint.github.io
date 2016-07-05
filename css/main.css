@@ -5,7 +5,10 @@
 
 .m0 {margin: 0}
 
+.mb0 {margin-bottom: 0px !important}
 .mb20 {margin-bottom: 20px}
+.mt20 {margin-top: 20px}
+
 /*images sizing*/
 
 .logo-small {
@@ -148,17 +151,34 @@
 .article-img img{
 	border-radius: 5px;
 }
+/*resume*/
 
+.resume h2,.resume h3 {
+	color: #337ab7;
+	margin-bottom: 30px;
+}
+.resume h4 {
+	font-size: 16px;
+	color: #337ab7;
+	margin-bottom: 20px;
+}
+.floatr {
+	float: right;
+}
+.skills h4 {
+	margin-left: 30px;
+}
 /*contactpage*/
 .contact {
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 50%; 
+	margin-left: 10%;
+    width: 80%;
 }
 .contact h3 {
 	color: #666;
 }
-
+.contactinfo {
+	margin-top: 60px;
+}
 .contact .field, .contact .mailfield  {
 	width: 80%;
 	border-radius: 2px;
