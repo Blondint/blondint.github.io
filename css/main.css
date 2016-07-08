@@ -211,3 +211,10 @@
     width: 15%;
     margin-right: 10px;
 }
+/*document*/
+.document {
+	text-align: center;
+}
+.document img {
+	width: 70%;
+}
