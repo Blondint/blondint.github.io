@@ -146,13 +146,14 @@
 	width: 80px;
 }
 .main-sub-right {
-	display: table-cell;
+	display: inline-block;
 	vertical-align: middle;
 }
 
 .telecom {
 	background-color: #eee;
 }
+
 /*blog*/
 
 .blog-head {

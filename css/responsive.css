@@ -7,11 +7,27 @@
 		display: none;
 	}
 
+	.small-center {
+		text-align: center;
+	}
+
 	.sidebar-small {
 		display: block !important;
 	}
 
 	.vertical-bar {
 		display: none;
+	}
+
+	.skills h4 {
+		margin-left: 0px !important;
+	} 
+
+	h1, h2, h3, h4{
+		text-align: center;
+	}
+
+	.article-img img{
+		width: 90%;
 	}
 }
