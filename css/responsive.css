@@ -1,9 +1,17 @@
 @media all and (max-width: 760px) {
+	.mainpage {
+		padding: 0px 5% !important;
+	}
+
 	.sidebar {
 		display: none;
 	}
 
 	.sidebar-small {
 		display: block !important;
+	}
+
+	.vertical-bar {
+		display: none;
 	}
 }
