@@ -9,7 +9,7 @@
 .mb20 {margin-bottom: 20px}
 .mt20 {margin-top: 20px}
 
-
+.text-center {text-align: center}
 /*images sizing*/
 
 .logo-small {
@@ -22,6 +22,7 @@
 	z-index: 1;
 	padding: 10% 2% 30% 3%;
 	position: fixed;
+	height: 100%;
 	width: inherit;
 	max-width: 224px;
 	font-family: 'Raleway', sans-serif;
@@ -30,6 +31,54 @@
 	-webkit-box-shadow: 10px 2px 29px -4px rgba(0,0,0,0.66);
 	-moz-box-shadow: 10px 2px 29px -4px rgba(0,0,0,0.66);
 	box-shadow: 10px 2px 29px -4px rgba(0,0,0,0.66);
+}
+
+.sidebar-small {
+	top: -1px;
+	z-index: 1;
+	position: fixed !important;
+	width: 100%;
+	height: 50px;
+	display: none;
+	border-bottom: 1px solid #eee;
+	position: absolute;
+
+	background-color: #fff;
+
+  	vertical-align: middle;
+}
+
+.menu {
+	position: fixed !important;
+	background-color: #fff;
+	width: 100%;
+	text-decoration: none;
+	margin-top: 48px;
+}
+
+.menu ul {
+	padding: 0px;
+	font-size: 1.2em;
+}
+
+.menu li {
+	padding: 0.2em 5%;
+	list-style: none;
+}
+.navbar-toggle {
+	float: left;	
+}
+
+.icon-bar {
+	background-color: #888;
+}
+
+.sidebar-logo-small {
+	float: right;
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	transform: translateY(-50%);	
 }
 
 .sidebar-pic  {
@@ -169,6 +218,9 @@
 }
 .article-img img{
 	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 /*resume*/
 
