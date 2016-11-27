@@ -1,9 +1,0 @@
-@media all and (max-width: 760px) {
-	.sidebar {
-		display: none;
-	}
-
-	.sidebar-small {
-		display: block !important;
-	}
-}
