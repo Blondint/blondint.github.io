@@ -26,11 +26,9 @@
 	padding: 10% 2% 30% 3%;
 	position: fixed;
 	height: 110%;
-	width: inherit;
+	width: 18%;
 	font-family: 'Raleway', sans-serif;
 	background-color: #fff;
-    min-width: 220px;
-    max-width: 250px;
 	border-right: 1px solid #eee;
 	-webkit-box-shadow: 10px 2px 29px -4px rgba(0,0,0,0.66);
 	-moz-box-shadow: 10px 2px 29px -4px rgba(0,0,0,0.66);
@@ -150,12 +148,17 @@
 	width: 80px;
 }
 .main-sub-right {
+	   text-align: center;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .telecom {
 	background-color: #eee;
+}
+
+.description {
+	    text-align: center;
 }
 
 /*blog*/
