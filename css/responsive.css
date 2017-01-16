@@ -39,6 +39,10 @@
 	}
 }
 
-@media all and (min-width: 1200px) {
+@media (min-width: 1200px) {
+	.col-lg-11 {
+		width: 84.2045% !important;
+	    left: 7.5% !important;
+	}
 
 }
