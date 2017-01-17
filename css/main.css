@@ -242,6 +242,16 @@
 	color: #337ab7;
 	margin-bottom: 20px;
 }
+
+.vertical-bar {
+	width: 3% !important;
+}
+.vertical-bar img {
+	height: 550px;
+}
+.schooling {
+/*	text-align: center;
+*/}
 .floatr {
 	float: right;
 }
