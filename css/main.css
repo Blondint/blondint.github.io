@@ -14,7 +14,7 @@
 
 .ml20{margin-left: 20px}
 
-.text-center {text-align: center}
+.text-center {text-align: center !important}
 /*images sizing*/
 
 .logo-small {
