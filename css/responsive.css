@@ -1,4 +1,4 @@
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
 	.mainpage {
 		padding: 0px !important;
 	}
@@ -14,7 +14,7 @@
 	.sidebar-pic {
 		width: 35px !important;
 	    height: 35px !important;
-	    right: 90px;
+	    right: 90px !important;
 	}
 	.vertical-bar {
 		display: none;

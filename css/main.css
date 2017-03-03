@@ -109,7 +109,7 @@ p {
 .sidebar-logo li{
     min-width: 20px;
     min-height: 20px;
-    margin-right: 10px;
+    margin-right: 8px;
     margin-left: 5px;
     display: inline-block;
 }
@@ -279,7 +279,7 @@ p {
 /*resume*/
 
 .resume {
-	margin: 10px 0 0 4%;
+	margin: 10px 4% 0;
 }
 
 .resume h2,.resume h3 {
