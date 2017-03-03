@@ -14,8 +14,7 @@
 	.sidebar-pic {
 		width: 35px !important;
 	    height: 35px !important;
-	    background-size: 35px 35px !important;
-	    margin-right: 10	0px;
+	    right: 90px;
 	}
 	.vertical-bar {
 		display: none;
