@@ -1,41 +1,44 @@
 @media all and (max-width: 768px) {
 	.mainpage {
-		padding: 0px 5% !important;
+		padding: 0px !important;
 	}
-
 	.sidebar {
 		display: none;
 	}
-
 	.small-center {
 		text-align: center;
 	}
-
 	.sidebar-small {
 		display: block !important;
 	}
-
 	.sidebar-pic {
 		width: 35px !important;
 	    height: 35px !important;
 	    background-size: 35px 35px !important;
-	    margin-right: 100px;
+	    margin-right: 10	0px;
 	}
-
 	.vertical-bar {
 		display: none;
 	}
-
 	.skills h4 {
 		margin-left: 0px !important;
 	} 
-
 	h1, h2, h3, h4{
 		text-align: center;
 	}
-
 	.article-img img{
 		width: 90%;
+	}
+	.telecom-wrapper {
+		margin-top: 1%;
+		text-align: center;
+	}
+}
+
+@media (min-width: 991px) {
+	.telecom-wrapper {
+		margin-top: 1%;
+		text-align: center;
 	}
 }
 
@@ -44,5 +47,4 @@
 		width: 84.2% !important;
 	    left: 7.5% !important;
 	}
-
 }
