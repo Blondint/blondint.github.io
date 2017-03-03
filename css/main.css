@@ -15,16 +15,18 @@
 .ml20{margin-left: 20px}
 
 .text-center {text-align: center !important}
-/*images sizing*/
 
-.logo-small {
-	width: 20px;
-}
+.inline li {display: inline;}
+
+/*images sizing*/
 
 p {
 	text-align: justify;	
 }
 /*sidebar*/
+.logo-small {
+	width: 20px;
+}
 
 .sidebar {
 	z-index: 1;
@@ -64,6 +66,10 @@ p {
 	z-index: 2;
 }
 
+.menu-inner {
+	margin-top: 5px;
+}
+
 .menu ul {
 	padding: 0px;
 	font-size: 1.2em;
@@ -89,6 +95,11 @@ p {
 	transform: translateY(-50%);	
 }
 
+.sidebar-logo-small ul{
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
 .sidebar-pic  {
 	background-image: url('../images/picture.png');
 	border-radius: 100%;
@@ -101,14 +112,30 @@ p {
 	font-size: 22px;
 
 }
-.sidebar-logo {
-	margin-left: 20px;
+.sidebar-logo li{
+    min-width: 20px;
+    min-height: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.sidebar-logo-github {
+	width: 20px;
+	height: 20px;
+	background-image: url("../images/github-logo.png");
+	background-size: contain;
+}
+.sidebar-logo-linkedin {
+	width: 20px;
+	height: 20px;
+	background-image: url("../images/linkedin-logo.png");
+	background-size: contain;
 }
 .sidebar ul {
 	margin-top: 20px;
 	padding-left: 20px;
 }
-.sidebar li {
+.sidebar-link li {
 	list-style: none;
 	margin: 10px 0px;
 }

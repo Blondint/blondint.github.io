@@ -1,3 +1,7 @@
 $(document).ready(function(){
-	//$('#menu').css('margin-top',$('#navbar-small').height()-5+'px');
+	$('.mainpage').click(function(){
+		console.log($('.collapse'));
+		console.log($('#menu'));
+		$('#menu').toggle;
+	})
 })
