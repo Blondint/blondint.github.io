@@ -6,38 +6,82 @@
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+    	<meta property="og:title" content="Blondin Thibaud - Indian Adventure" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://blondint.github.io/indian-adventure.html" />
+    	<meta property="og:image" content="http://blondint.github.io/blog/images/india.png" />
+
+    	<title>Blondin Thibaud</title> 
+		<link rel="icon" type="image/png" href="../images/picture.png" />
+		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" /><![endif]-->
+
+    	<link rel="stylesheet" href="../css/responsive.css"/>
 		<link rel="stylesheet" href="../css/bootstrap.min.css" />
     	<link rel="stylesheet" href="../css/main.css" />
-    	<link href='https://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 
     	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
-    	<!--<script>
-      	$(function(){
-        	$("#sidebar").load("sidebar.html");
-      	});
-    	</script>-->
+    	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    	<link href='https://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    	<script type="text/javascript" src="http://blondint.github.io/js/script.js"></script>
+    	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-91633177-1', 'auto');
+		  ga('send', 'pageview');
+		</script>
 	</head>
 
 	<body>
 		<div class="row m0">
 	<!--sidebar-->
-			<div class="col-md-2 col-sm-2 ps0">
+			<div class="col-lg-1 col-md-2 col-sm-2 ps0">
 				<!--<div id="sidebar"></div>-->
 				<div class="sidebar">
 					<div class="sidebar-pic"></div>
-					<h2>BLONDIN Thibaud</h2>
-					<a class="sidebar-logo" href="https://www.linkedin.com/in/blondin-thibaud-36960710b"><img class="logo-small" src="../images/linkedin-logo.png"/></a>
-					<a class="sidebar-logo" href="https://github.com/Blondint"><img class="logo-small" src="../images/github-logo.png"/></a>
-					<ul>
-						<li><a href="../index.html">Home</a></li>
-						<li><a href="../resume.html">Resume</a></li>
-						<li><a href="../blog/index.html">Blog</a></li>
-						<li><a href="../contact.html">Contact</a></li>
+					<h2>BLONDIN Thibaud</h2>	
+					<ul class="sidebar-logo">
+						<li><a href="https://www.linkedin.com/in/blondin-thibaud-36960710b"><div class="sidebar-logo-linkedin"></div></a></li>
+						<li><a href="https://github.com/Blondint"><div class="sidebar-logo-github"></div></a></li>
+					</ul>
+					<ul class="sidebar-link">
+						<li><a href="http://blondint.github.io/index.html">Home</a></li>
+						<li><a href="http://blondint.github.io/resume.html">Resume</a></li>
+						<li><a href="http://blondint.github.io/blog/index.html">Blog</a></li>
 					</ul>
 				</div>
 			</div>
 	<!--mainpage-->
-			<div class="col-md-10 col-sm-10 ps0">
+			<div class="col-lg-11 col-md-10 col-sm-10 ps0">
+				<div id="navbar-small" class="sidebar-small">
+					<button type="button" id='navbar-menu' class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+				    <div class="sidebar-logo-small mr10 mt15">
+					    <ul class="sidebar-logo">
+					    	<li><div class="sidebar-logo-small sidebar-pic"></div></li>
+							<li><a href="https://www.linkedin.com/in/blondin-thibaud-36960710b"><div class="sidebar-logo-linkedin"></div></a></li>
+							<li><a href="https://github.com/Blondint"><div class="sidebar-logo-github"></div></a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="menu" class="menu collapse">
+					<div class="menu-inner">
+					     <ul>
+							<li><a href="http://blondint.github.io/index.html">Home</a></li>
+							<li><a href="http://blondint.github.io/resume.html">Resume</a></li>
+							<li><a href="http://blondint.github.io/blog/index.html">Blog</a></li>
+						</ul>
+					</div>
+				</div>
 				<div class="document"> 
 					<img src="images/synup-recommendation.png">
 				</div>

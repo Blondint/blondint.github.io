@@ -1,7 +1,12 @@
 $(document).ready(function(){
 	$('.mainpage').click(function(){
-		console.log($('.collapse'));
-		console.log($('#menu'));
-		$('#menu').toggle;
+		$('#menu').attr('Ariaexpended', 'false');
+		$('#menu').removeClass('in')
 	})
+
+	$(window).resize(function() {
+		$('#menu').attr('Ariaexpended', 'false');
+		$('#menu').removeClass('in')
+	});
+
 })
